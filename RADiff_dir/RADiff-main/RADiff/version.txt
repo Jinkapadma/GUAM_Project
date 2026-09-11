@@ -1,0 +1,4 @@
+RADiff 0.1.0
+
+Project structure reorganized into a flat research-code layout.
+See README.md and configs/default.yaml for the current experiment layout.

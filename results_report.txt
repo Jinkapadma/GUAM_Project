@@ -1,0 +1,9 @@
+NASA GUAM UAM Trajectory Prediction Results
+
+Normalized Metrics:
+- Normalized ADE: 0.5864
+- Normalized FDE: 0.1465
+
+Real-World Scale Metrics:
+- Real Scale ADE: 227,117.02 ft
+- Real Scale FDE: 70,771.45 ft

@@ -1,0 +1,8 @@
+faiss-cpu
+matplotlib
+numpy
+scikit-learn
+scipy
+torch
+torch-kmeans
+tqdm

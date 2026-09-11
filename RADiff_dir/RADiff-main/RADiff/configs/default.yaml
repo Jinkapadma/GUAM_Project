@@ -1,0 +1,27 @@
+dataset:
+  folder: dataset
+  name: 7days1_small
+  obs_len: 11
+  pred_len: 120
+  pred_step: 10
+  delimiter: " "
+
+training:
+  batch_size: 16
+  epochs: 20
+  learning_rate: 0.0001
+  save_dir: saved_models
+
+model:
+  input_channels: 3
+  tcn_channel_size: 256
+  tcn_layers: 2
+  tcn_kernels: 4
+  graph_hidden: 256
+  gat_heads: 16
+  dropout: 0.05
+  alpha: 0.2
+  cvae_hidden: 128
+  cvae_channel_size: 128
+  cvae_layers: 2
+  mlp_layer: 32
